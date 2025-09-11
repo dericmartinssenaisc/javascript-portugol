@@ -1,14 +1,11 @@
-let texto = "Olá Mundo!";
-let numero = 42;
-let pi = 3.14;
-let booleano = true;
-let nulo = null;
-let indefinido;
+let nome = "Deric";
+let idade = 19;
+let altura = 1.75;
+let estudante = true;
+let endereco = "Perimetral Rogerio Silva S/N";
 
-
-console.log(typeof texto); // string
-console.log(typeof numero); // number
-console.log(typeof pi); // number
-console.log(typeof booleano); // boolean
-console.log(typeof nulo); // object (isso é um bug do JavaScript)
-console.log(typeof indefinido); // undefined
+console.log(`Nome: ${nome}`);
+console.log(`Idade: ${idade}`);
+console.log(`Altura: ${altura}`);
+console.log(`Estudante: ${estudante}`);
+console.log(`Endereço: ${endereco}`);
