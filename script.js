@@ -1,27 +1,27 @@
-{
-//compração simples de tipos
-let a = 5;
-let b = "5";
+let idade = 10;
 
-// conversão automática de tipos
-if (a = b) {
-    console.log("true");
+if (idade < 13) {
+    console.log("Criança");
+} else if (idade < 18) {
+    console.log("Adolescente");
+} else if (idade < 60) {
+    console.log("Adulto");
 } else {
-    console.log("false");
-}   
-}
+    console.log("Idoso");
+}  
+
+/*
+    inteiro idade = 20
+
+    se (idade < 13) {
+        escreva("Criança")
+    }   senão se (idade < 18) {
+        escreva("Adolescente")
+    }       senão se (idade < 60) {   
+               escreva("Adulto")
+            }   senão {
+                escreva("Idoso")
+            }     
 
 
-{
-  //compração estrita de tipos  
-    let a = 5;
-    let b = "5";
-    
-    // conversão automática de tipos
-    if (a === b) {
-        console.log("true");
-    } else {
-        console.log("false");
-    }   
-}
-    
+*/
